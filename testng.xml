@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteOPC">
+  <test thread-count="5" name="TestOPC">
+    <classes>
+      <class name="com.openclassrooms.testing.CalculatorTest"/>
+    </classes>
+  </test> <!-- TestOPC -->
+</suite> <!-- SuiteOPC -->
